@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <title>Ichwanul Muslim - Web Developer</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -28,24 +29,26 @@
     <section class="bg-MybgDark relative">
         <img class="pattern" src="./pattern.jpg">
         <div class="container mx-auto text-Mytext relative z-10">
-            <div class="navbar flex items-center py-6 mx-5 border-b border-MyBorder">
-                <a class="flex-auto flex items-center" href="mailto:projectichwan@gmail.com"><img class="mr-3" src="./assets/Message.svg"> <p>Get in touch</p></a>
-                <a href="https://www.linkedin.com/in/ichwanul-muslim/">Linkedin</a>
-                <p class="mx-5"> / </p>
-                <a href="https://www.instagram.com/wanjaaiy/">Instagram</a>
+            <div class="navbar lg:flex text-center items-center py-6 mx-5 border-b border-MyBorder">
+                <a class="lg:flex-auto flex items-center justify-center lg:justify-start" href="mailto:projectichwan@gmail.com"><img class="mr-3" src="./assets/Message.svg"> <p>Get in touch</p></a>
+                <div class="flex justify-center lg:justify-start">
+                    <a href="https://www.linkedin.com/in/ichwanul-muslim/">Linkedin</a>
+                    <p class="mx-5"> / </p>
+                    <a href="https://www.instagram.com/wanjaaiy/">Instagram</a>
+                </div>
             </div>
             <div class="flex flex-col text-center items-center justify-center py-10 px-5">
                 <img class="foto-profil" src="./assets/edit.jpg" alt="Ichwanul-Muslim">
                 <p>Hi, I'm Ichwan 👋</p>
                 <p><i>Web Developer & Digital Illustrator</i></p>
-                <h1 class="text-6xl w-1/2 my-5 font-medium text-grad">Building Website, digital products, and experience.</h1>
+                <h1 class="text-4xl lg:text-6xl lg:w-1/2 my-5 font-medium text-grad">Building Website, digital products, and experience.</h1>
                 <a href="mailto:projectichwan@gmail.com"><button class="bg-MybgButton py-4 px-8 rounded-md m-5 border border-MyBorder hover:scale-90 duration-300">Get in Touch</button></a> 
             </div>
         </div>
         <div class="bg-MybgButton text-Mytext py-5 px-10 text-center relative z-10 border-y border-MyBorder">
             <h1 class="text-4xl font-bold mb-8 text-grad">Projects</h1>
-            <div class="flex parent-flex mb-5 the-proj project-1 aktif">
-                <div class="picture-projects project-flex">
+            <div class="lg:flex parent-flex mb-5 the-proj project-1 aktif">
+                <div class="project-flex mb-5 lg:mb-0">
                     <img src="./assets/projects/cocopav.png" class="big-picture w-full mb-3">
                     <div class="picture-indicators flex">
                         <img src="./assets/projects/cocopav.png" class="pic-indicator w-1/3">
@@ -53,7 +56,7 @@
                         <img src="./assets/projects/cocopav3.png" class="pic-indicator w-1/3">
                     </div>
                 </div>
-                <div class="picture-projects project-flex">
+                <div class="project-flex">
                     <h1 class="title-project font-medium text-2xl mb-4 text-grad">Cocopav Website</h1>
                     <p class="project-desc">Website created for marketing Cocopav electric pods. This website is made with attention to the back-end for clients to add or edit content using Admin Dashboard. This website was created using Laravel and also has interesting animation features using Gsap</p> <br>
                     <p class="project-desc2 mb-5">Website yang dibuat untuk memasarkan pod listrik Cocopav. Website ini dibuat dengan memperhatikan sisi back-end agar klien bisa menambahkan dan mengedit konten website melalui dashboard admin. Website ini dibuat menggunakan Laravel dan juga GSAP.</p>
@@ -62,8 +65,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex parent-flex mb-5 the-proj project-2 absolute-project">
-                <div class="picture-projects project-flex">
+            <div class="lg:flex parent-flex mb-5 the-proj project-2 absolute-project">
+                <div class="project-flex mb-5 lg:mb-0">
                     <img src="./assets/projects/evarec.png" class="big-picture w-full mb-3">
                     <div class="picture-indicators flex">
                         <img src="./assets/projects/evarec.png" class="pic-indicator w-1/3">
@@ -71,7 +74,7 @@
                         <img src="./assets/projects/evarec3.png" class="pic-indicator w-1/3">
                     </div>
                 </div>
-                <div class="picture-projects project-flex">
+                <div class="project-flex">
                     <h1 class="title-project font-medium text-2xl mb-4 text-grad">Eva Recruitment</h1>
                     <p class="project-desc">The website created for marketing the Eva HR application belongs to Hashmicro. Website made with fully complex animated features using gsap</p> <br>
                     <p class="project-desc2 mb-5">Website yang dibuat untuk divisi marketing aplikasi EVA HR milik Hashmicro. Website ini dibuat dengan fitur animasi yang kompleks menggunakan GSAP. </p>
@@ -80,8 +83,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex parent-flex mb-5 the-proj project-3 absolute-project">
-                <div class="picture-projects project-flex">
+            <div class="lg:flex parent-flex mb-5 the-proj project-3 absolute-project">
+                <div class="project-flex mb-5 lg:mb-0">
                     <img src="./assets/projects/r5class.png" class="big-picture w-full mb-3">
                     <div class="picture-indicators flex">
                         <img src="./assets/projects/r5class.png" class="pic-indicator w-1/3">
@@ -89,17 +92,17 @@
                         <img src="./assets/projects/r5class3.png" class="pic-indicator w-1/3">
                     </div>
                 </div>
-                <div class="picture-projects project-flex">
+                <div class="project-flex">
                     <h1 class="title-project font-medium text-2xl mb-4 text-grad">R5 Comunity Dashboard</h1>
-                    <p class="project-desc">The website created for marketing the Eva HR application belongs to Hashmicro. Website made with fully complex animated features using gsap</p> <br>
-                    <p class="project-desc2 mb-5">Website yang dibuat untuk divisi marketing aplikasi EVA HR milik Hashmicro. Website ini dibuat dengan fitur animasi yang kompleks menggunakan GSAP. </p>
+                    <p class="project-desc">A website created to help Unindra class R5 students, so they can better communicate with each other about assignments during the Covid-19 pandemic.</p> <br>
+                    <p class="project-desc2 mb-5">Website yang dibuat untuk membantu mahasiswa Unindra kelas R5, agar bisa saling berkomunikasi tentang tugas lebih baik dimasa pandemi covid-19.</p>
                     <div>
                         Link : <a class="link-to-web" href="https://www.r5classunindra.my.id/">See Live Version</a>
                     </div>
                 </div>
             </div>
-            <div class="flex parent-flex mb-5 the-proj project-4 absolute-project">
-                <div class="picture-projects project-flex">
+            <div class="lg:flex parent-flex mb-5 the-proj project-4 absolute-project">
+                <div class="project-flex mb-5 lg:mb-0">
                     <img src="./assets/projects/codehouse.PNG" class="big-picture w-full mb-3">
                     <div class="picture-indicators flex">
                         <img src="./assets/projects/codehouse.PNG" class="pic-indicator w-1/3">
@@ -107,10 +110,8 @@
                         <img src="./assets/projects/codehouse3.PNG" class="pic-indicator w-1/3">
                     </div>
                 </div>
-                <div class="picture-projects project-flex">
-                    <h1 class="title-project font-medium text-2xl mb-4 text-grad">CodeHouse Company Profile</h1>
-                    <p class="project-desc">The website created for marketing the Eva HR application belongs to Hashmicro. Website made with fully complex animated features using gsap</p> <br>
-                    <p class="project-desc2 mb-5">Website yang dibuat untuk divisi marketing aplikasi EVA HR milik Hashmicro. Website ini dibuat dengan fitur animasi yang kompleks menggunakan GSAP. </p>
+                <div class="project-flex">
+                    <p class="project-desc2 mb-5">Saya diminta untuk membuat ulang Company Profile dari Codehouse, semua ide, logo, gambar, dan fitur fiturnya diserahkan ke saya. website ini dibuat menggunakan teknologi terbaru yaitu laravel 10, bertujuan agar bisa memantau calon klien melalui dashboard admin dan juga mengedit konten dari website ini.</p>
                     <div>
                         Link : The Website is Under Maintenance
                     </div>
@@ -125,23 +126,23 @@
         </div>
         <div class="container mx-auto text-Mytext relative py-10 z-10 border-b border-MyBorder">
             <p class="my-10 font-medium text-3xl text-center text-grad">Collaborate with Clients to create impactful results.</p>
-            <div class="flex">
-                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+            <div class="lg:flex">
+                <div class="card mb-3 lg:mb-0 px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 lg:w-1/4">
                     <img class="mb-5 image-card" src="assets/uiuxdesign.jpg">
                     <p class="font-bold text-grad text-lg">UI & UX</p>
                     <p class="text-sm font-light">Designing interfaces that are intuitive, efficient, and enjoyable to use.</p>
                 </div>
-                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+                <div class="card mb-3 lg:mb-0 px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 lg:w-1/4">
                     <img class="mb-5 image-card" src="assets/app-dev.jpg">
                     <p class="font-bold text-grad text-lg">Web App</p>
                     <p class="text-sm font-light">Transforming ideas into exceptional web app experiences.</p>
                 </div>
-                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+                <div class="card mb-3 lg:mb-0 px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 lg:w-1/4">
                     <img class="mb-5 image-card" src="assets/design.jpg">
                     <p class="font-bold text-grad text-lg">Design & Creative</p>
                     <p class="text-sm font-light">Crafting visually stunning designs that connect with your audience.</p>
                 </div>
-                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+                <div class="card mb-3 lg:mb-0 px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 lg:w-1/4">
                     <img class="mb-5 image-card" src="assets/development.jpg">
                     <p class="font-bold text-grad text-lg">Development</p>
                     <p class="text-sm font-light">Bringing your vision to life with the latest technology and design trends.</p>
@@ -149,7 +150,7 @@
             </div>
         </div>
         <div class="container mx-auto text-Mytext relative py-10 z-10 border-b border-MyBorder flex flex-col items-center justify-center">
-            <p class="my-10 font-medium text-5xl text-center text-grad w-1/3">Tell me about your next project.</p>
+            <p class="my-10 font-medium text-3xl lg:text-5xl text-center text-grad lg:w-1/3">Tell me about your next project.</p>
             <a href="mailto:projectichwan@gmail.com">
                 <button class="bg-MybgButton py-4 rounded-md m-5 border border-MyBorder flex items-center justify-center hover:scale-90 duration-300  w-48"><p class="mr-3">Email me</p><img src="./assets/Message.svg" class="w-5"></button>
                 <a href="https://api.whatsapp.com/send?phone=6281384402435&text=Saya%20ingin%20mendiskusikan%20tentang%20projek%20saya.">
@@ -157,12 +158,12 @@
                 </a>
             </a>
         </div>
-        <div class="container mx-auto text-Mytext relative py-10 z-10 border-b border-MyBorder flex items-center">
+        <div class="container mx-auto text-Mytext relative py-10 z-10 border-b border-MyBorder text-center lg:text-left lg:flex items-center">
             <p class="flex-auto">© 2023 All rights reserved.</p>
-            <div class="flex">
-                <a href="#">Linkedin</a>
+            <div class="flex justify-center lg:justify-start">
+                <a href="https://www.linkedin.com/in/ichwanul-muslim/">Linkedin</a>
                 <p class="mx-5"> / </p>
-                <a href="#">Instagram</a>
+                <a href="https://www.instagram.com/wanjaaiy/">Instagram</a>
             </div>
         </div>
     </section>
