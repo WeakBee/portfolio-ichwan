@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichwanul Muslim - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+            colors: {
+                Mytext: '#9a9a89',
+                Mylight: '#b6b6b6',
+                MyDark: '#7a7a7a',
+                MybgDark: '#161616',
+                MybgButton: '#1a1a1a',
+                MyBorder: '#232323',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <section class="bg-MybgDark relative">
+        <img class="pattern" src="./pattern.jpg">
+        <div class="container mx-auto text-Mytext relative z-10">
+            <div class="navbar flex items-center py-6 mx-5 border-b border-MyBorder">
+                <a class="flex-auto flex items-center" href="mailto:projectichwan@gmail.com"><img class="mr-3" src="./assets/Message.svg"> <p>Get in touch</p></a>
+                <a href="https://www.linkedin.com/in/ichwanul-muslim/">Linkedin</a>
+                <p class="mx-5"> / </p>
+                <a href="https://www.instagram.com/wanjaaiy/">Instagram</a>
+            </div>
+            <div class="flex flex-col text-center items-center justify-center py-10 px-5">
+                <img class="foto-profil" src="./assets/edit.jpg" alt="Ichwanul-Muslim">
+                <p>Hi, I'm Ichwan 👋</p>
+                <p><i>Web Developer & Digital Illustrator</i></p>
+                <h1 class="text-6xl w-1/2 my-5 font-medium text-grad">Building Website, digital products, and experience.</h1>
+                <a href="mailto:projectichwan@gmail.com"><button class="bg-MybgButton py-4 px-8 rounded-md m-5 border border-MyBorder hover:scale-90 duration-300">Get in Touch</button></a> 
+            </div>
+        </div>
+        <div class="bg-MybgButton text-Mytext py-5 px-10 text-center relative z-10 border-y border-MyBorder">
+            <h1 class="text-4xl font-bold mb-8 text-grad">Projects</h1>
+            <div class="flex parent-flex mb-5 the-proj project-1 aktif">
+                <div class="picture-projects project-flex">
+                    <img src="./assets/projects/cocopav.png" class="big-picture w-full mb-3">
+                    <div class="picture-indicators flex">
+                        <img src="./assets/projects/cocopav.png" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/cocopav2.png" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/cocopav3.png" class="pic-indicator w-1/3">
+                    </div>
+                </div>
+                <div class="picture-projects project-flex">
+                    <h1 class="title-project font-medium text-2xl mb-4 text-grad">Cocopav Website</h1>
+                    <p class="project-desc">Website created for marketing Cocopav electric pods. This website is made with attention to the back-end for clients to add or edit content using Admin Dashboard. This website was created using Laravel and also has interesting animation features using Gsap</p> <br>
+                    <p class="project-desc2 mb-5">Website yang dibuat untuk memasarkan pod listrik Cocopav. Website ini dibuat dengan memperhatikan sisi back-end agar klien bisa menambahkan dan mengedit konten website melalui dashboard admin. Website ini dibuat menggunakan Laravel dan juga GSAP.</p>
+                    <div>
+                        Link : <a class="link-to-web" href="https://cocopav.com/produk/lite">See Live Version</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex parent-flex mb-5 the-proj project-2 absolute-project">
+                <div class="picture-projects project-flex">
+                    <img src="./assets/projects/evarec.png" class="big-picture w-full mb-3">
+                    <div class="picture-indicators flex">
+                        <img src="./assets/projects/evarec.png" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/evarec2.png" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/evarec3.png" class="pic-indicator w-1/3">
+                    </div>
+                </div>
+                <div class="picture-projects project-flex">
+                    <h1 class="title-project font-medium text-2xl mb-4 text-grad">Eva Recruitment</h1>
+                    <p class="project-desc">The website created for marketing the Eva HR application belongs to Hashmicro. Website made with fully complex animated features using gsap</p> <br>
+                    <p class="project-desc2 mb-5">Website yang dibuat untuk divisi marketing aplikasi EVA HR milik Hashmicro. Website ini dibuat dengan fitur animasi yang kompleks menggunakan GSAP. </p>
+                    <div>
+                        Link : <a class="link-to-web" href="https://eva-rec-new.netlify.app/">See Live Version</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex parent-flex mb-5 the-proj project-3 absolute-project">
+                <div class="picture-projects project-flex">
+                    <img src="./assets/projects/r5class.png" class="big-picture w-full mb-3">
+                    <div class="picture-indicators flex">
+                        <img src="./assets/projects/r5class.png" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/r5class2.png" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/r5class3.png" class="pic-indicator w-1/3">
+                    </div>
+                </div>
+                <div class="picture-projects project-flex">
+                    <h1 class="title-project font-medium text-2xl mb-4 text-grad">R5 Comunity Dashboard</h1>
+                    <p class="project-desc">The website created for marketing the Eva HR application belongs to Hashmicro. Website made with fully complex animated features using gsap</p> <br>
+                    <p class="project-desc2 mb-5">Website yang dibuat untuk divisi marketing aplikasi EVA HR milik Hashmicro. Website ini dibuat dengan fitur animasi yang kompleks menggunakan GSAP. </p>
+                    <div>
+                        Link : <a class="link-to-web" href="https://www.r5classunindra.my.id/">See Live Version</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex parent-flex mb-5 the-proj project-4 absolute-project">
+                <div class="picture-projects project-flex">
+                    <img src="./assets/projects/codehouse.PNG" class="big-picture w-full mb-3">
+                    <div class="picture-indicators flex">
+                        <img src="./assets/projects/codehouse.PNG" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/codehouse2.PNG" class="pic-indicator w-1/3">
+                        <img src="./assets/projects/codehouse3.PNG" class="pic-indicator w-1/3">
+                    </div>
+                </div>
+                <div class="picture-projects project-flex">
+                    <h1 class="title-project font-medium text-2xl mb-4 text-grad">CodeHouse Company Profile</h1>
+                    <p class="project-desc">The website created for marketing the Eva HR application belongs to Hashmicro. Website made with fully complex animated features using gsap</p> <br>
+                    <p class="project-desc2 mb-5">Website yang dibuat untuk divisi marketing aplikasi EVA HR milik Hashmicro. Website ini dibuat dengan fitur animasi yang kompleks menggunakan GSAP. </p>
+                    <div>
+                        Link : The Website is Under Maintenance
+                    </div>
+                </div>
+            </div>
+            <div class="circle-indicators">
+                <div class="indicator indic-1 aktif"></div>
+                <div class="indicator indic-2 "></div>
+                <div class="indicator indic-3 "></div>
+                <div class="indicator indic-4 "></div>
+            </div>
+        </div>
+        <div class="container mx-auto text-Mytext relative py-10 z-10 border-b border-MyBorder">
+            <p class="my-10 font-medium text-3xl text-center text-grad">Collaborate with Clients to create impactful results.</p>
+            <div class="flex">
+                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+                    <img class="mb-5 image-card" src="assets/uiuxdesign.jpg">
+                    <p class="font-bold text-grad text-lg">UI & UX</p>
+                    <p class="text-sm font-light">Designing interfaces that are intuitive, efficient, and enjoyable to use.</p>
+                </div>
+                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+                    <img class="mb-5 image-card" src="assets/app-dev.jpg">
+                    <p class="font-bold text-grad text-lg">Web App</p>
+                    <p class="text-sm font-light">Transforming ideas into exceptional web app experiences.</p>
+                </div>
+                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+                    <img class="mb-5 image-card" src="assets/design.jpg">
+                    <p class="font-bold text-grad text-lg">Design & Creative</p>
+                    <p class="text-sm font-light">Crafting visually stunning designs that connect with your audience.</p>
+                </div>
+                <div class="card px-3 py-5 bg-MybgButton border border-MyBorder rounded-md mx-3 w-1/4">
+                    <img class="mb-5 image-card" src="assets/development.jpg">
+                    <p class="font-bold text-grad text-lg">Development</p>
+                    <p class="text-sm font-light">Bringing your vision to life with the latest technology and design trends.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto text-Mytext relative py-10 z-10 border-b border-MyBorder flex flex-col items-center justify-center">
+            <p class="my-10 font-medium text-5xl text-center text-grad w-1/3">Tell me about your next project.</p>
+            <a href="mailto:projectichwan@gmail.com">
+                <button class="bg-MybgButton py-4 rounded-md m-5 border border-MyBorder flex items-center justify-center hover:scale-90 duration-300  w-48"><p class="mr-3">Email me</p><img src="./assets/Message.svg" class="w-5"></button>
+                <a href="https://api.whatsapp.com/send?phone=6281384402435&text=Saya%20ingin%20mendiskusikan%20tentang%20projek%20saya.">
+                    <button class="bg-MybgButton py-4 rounded-md border border-MyBorder flex items-center justify-center hover:scale-90 duration-300 w-48"><p class="mr-3">Whatsapp me</p><img src="./assets/whatsapp.svg" class="w-4"></button>
+                </a>
+            </a>
+        </div>
+        <div class="container mx-auto text-Mytext relative py-10 z-10 border-b border-MyBorder flex items-center">
+            <p class="flex-auto">© 2023 All rights reserved.</p>
+            <div class="flex">
+                <a href="#">Linkedin</a>
+                <p class="mx-5"> / </p>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
