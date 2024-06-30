@@ -10,6 +10,12 @@ $( ".project-3 .pic-indicator" ).on( "click", function() {
 $( ".project-4 .pic-indicator" ).on( "click", function() {
     $(".project-4 .big-picture").attr("src", $(this).attr("src"));
 });
+$( ".project-5 .pic-indicator" ).on( "click", function() {
+    $(".project-5 .big-picture").attr("src", $(this).attr("src"));
+});
+$( ".project-6 .pic-indicator" ).on( "click", function() {
+    $(".project-5 .big-picture").attr("src", $(this).attr("src"));
+});
 
 
 
@@ -28,5 +34,11 @@ $( ".indicator" ).on( "click", function() {
     } else if ($(this).hasClass( "indic-4" )){
         $(".the-proj").removeClass("aktif");
         $(".project-4").addClass("aktif");
+    } else if ($(this).hasClass( "indic-5" )){
+        $(".the-proj").removeClass("aktif");
+        $(".project-5").addClass("aktif");
+    } else if ($(this).hasClass( "indic-6" )){
+        $(".the-proj").removeClass("aktif");
+        $(".project-6").addClass("aktif");
     } 
 });
